@@ -65,7 +65,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'locale' => 'ru',
+=======
+    'locale' => 'en',
+>>>>>>> d8c0326e181d08607813fa36679853dc347be8cb
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +82,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'fallback_locale' => 'ru',
+=======
+    'fallback_locale' => 'en',
+>>>>>>> d8c0326e181d08607813fa36679853dc347be8cb
 
     /*
     |--------------------------------------------------------------------------
@@ -147,6 +155,10 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+<<<<<<< HEAD
+=======
+        Collective\Html\HtmlServiceProvider::class,
+>>>>>>> d8c0326e181d08607813fa36679853dc347be8cb
 
         /*
          * Application Service Providers...
@@ -201,6 +213,11 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+<<<<<<< HEAD
+=======
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
+>>>>>>> d8c0326e181d08607813fa36679853dc347be8cb
 
     ],
 

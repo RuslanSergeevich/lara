@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -10,11 +11,19 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+=======
+Route::get('articles/create', 'ArticlesController@create');
+Route::post('articles', 'ArticlesController@store');
+Route::get('articles/{id}', 'ArticlesController@show');
+Route::get('articles', 'ArticlesController@index');
+
+>>>>>>> d8c0326e181d08607813fa36679853dc347be8cb
 
 Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 //Admin Panel Routes....
 Route::get('admin/dashboard', 'AdminController@index');
 //Route::get('admin/pages/{id}/maps', 'AdminMapController@edit']);
@@ -38,4 +47,7 @@ Route::post('password/email', ['as' => 'auth.password.email',  'uses' => 'Auth\P
 Route::post('password/reset', ['as' => 'auth.password.reset', 'uses' => 'Auth\PasswordController@reset']);*/
 
 
+=======
+Route::auth();
+>>>>>>> d8c0326e181d08607813fa36679853dc347be8cb
 Route::get('/home', 'HomeController@index');

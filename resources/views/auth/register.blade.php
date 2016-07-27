@@ -7,7 +7,11 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Register</div>
                 <div class="panel-body">
+<<<<<<< HEAD
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/register') }}">
+=======
+                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
+>>>>>>> d8c0326e181d08607813fa36679853dc347be8cb
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
